@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.10.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <!-- begin _includes/seo.html -->
+    <title>Flairbot for reddit - jackson1442</title>
+    <meta name="description" content="A website and portfolio for jackson1442" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="jackson1442" />
+    <meta property="og:title" content="Flairbot for reddit" />
+    <meta property="og:url" content="https://jackson1442.github.io/flairbot/" />
+    <link rel="canonical" href="https://jackson1442.github.io/flairbot/" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Jackson1442",
+        "url": "https://jackson1442.github.io",
+        "sameAs": null
+      }
+    </script>
+    <!-- end _includes/seo.html -->
+    <link href="https://jackson1442.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="jackson1442 Feed" />
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "") + " js ";
+    </script>
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="main.css" />
+    <!--[if lte IE 9]>
+      <style>
+        /* old IE unsupported flexbox fixes */
+        .greedy-nav .site-title {
+          padding-right: 3em;
+        }
+        .greedy-nav button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 100%;
+        }
+      </style>
+    <![endif]-->
+    <!-- start custom head snippets -->
+    <!-- insert favicons. use https://realfavicongenerator.net/ -->
+    <!-- end custom head snippets -->
+  </head>
+  <body class="layout--single wide">
+    <!--[if lt IE 9]>
+      <div class="notice--danger align-center" style="margin: 0">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</div>
+    <![endif]-->
+    <div class="masthead">
+      <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+          <nav id="site-nav" class="greedy-nav">
+            <span class="site-title" href="#">jackson1442</span>
+            <ul class="visible-links">
+              <li class="masthead__menu-item">
+                Blog
+              </li>
+              <li class="masthead__menu-item">
+                Projects
+              </li>
+            </ul>
+            <button class="greedy-nav__toggle hidden" type="button">
+              <span class="visually-hidden">Toggle Menu</span>
+              <div class="navicon"></div>
+            </button>
+            <ul class="hidden-links hidden"></ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="initial-content">
+      <div id="main" role="main">
+        <div class="sidebar sticky">
+          <div itemscope itemtype="http://schema.org/Person">
+            <div class="author__avatar">
+              <img src="avatar.jpg" alt="Jackson Welsh" itemprop="image" />
+            </div>
+            <div class="author__content">
+              <h3 class="author__name" itemprop="name">Jackson Welsh</h3>
+              <p class="author__bio" itemprop="description">Student. Developer. General person of interest.</p>
+            </div>
+            <div class="author__urls-wrapper">
+              <button class="btn btn--inverse">Follow</button>
+              <ul class="author__urls social-icons">
+                <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Austin, Texas</span></li>
+                <li>
+                  <span>
+                    <meta itemprop="email" content="me@j1442.co" />
+                    <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+                  </span>
+                </li>
+                <li>
+                  <span itemprop="sameAs"> <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub </span>
+                </li>
+                <li>
+                  <span href="#" itemprop="sameAs"> <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow </span>
+                </li>
+                <li>
+                  <span href="#" itemprop="sameAs"> <i class="fab fa-fw fa-steam" aria-hidden="true"></i> Steam </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="headline" content="Flairbot for reddit" />
+          <div class="page__inner-wrap">
+            <header>
+              <h1 class="page__title" itemprop="headline">Flairbot for reddit</h1>
+            </header>
+            <section class="page__content" itemprop="text">
+              <aside class="sidebar__right">
+                <nav class="toc">
+                  <header>
+                    <h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4>
+                  </header>
+                  <ul class="toc__menu">
+                    <li>Features</li>
+                    <li>Getting Started</li>
+                    <li>
+                      FAQ
+                      <ul>
+                        <li>For users</li>
+                        <li>For moderators</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </aside>
+              <h1 id="flairbot-for-reddit-communities">Flairbot for reddit communities</h1>
+              <p>Flairbot is a moderation tool for reddit communities. It is extremely simple to set up and use, and requires very few resources to run. It automatically makes a comment on each post and flairs posts according to the votes cast on the comment.</p>
+              <h2 id="features">Features</h2>
+              <ul>
+                <li>Quick and easy to set up, there’s even a script to walk you through it</li>
+                <li>No maintenance</li>
+                <li>Can report posts where comment is heavily downvoted</li>
+                <li>Can require approval of posts that reach x upvotes</li>
+                <li>Logs all actions to a subreddit and text file</li>
+                <li>Comments on every post automatically</li>
+              </ul>
+              <h2 id="getting-started">Getting Started</h2>
+              <p>Getting this bot up and running is extremely easy. It runs great on Raspberry Pi’s, and this guide is assuming you are running it on a Raspberry Pi. You should create a separate account for the bot to run on.</p>
+              <ol>
+                <li>
+                  <p>
+                    <strong>Download the repo.</strong> Navigate to your home directory, <code class="language-plaintext highlighter-rouge">/home/pi</code> and enter the following command: <code class="language-plaintext highlighter-rouge">git clone https://github.com/jackson1442/redditBot</code>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Configure your bot.</strong> Navigate to the newly-created <code class="language-plaintext highlighter-rouge">redditBot</code> folder and run <code class="language-plaintext highlighter-rouge">configure.py</code>. Answer all of the questions and don’t leave anything
+                    blank.
+                  </p>
+                </li>
+                <li>
+                  <p><strong>Set up your login info file.</strong> Rename <code class="language-plaintext highlighter-rouge">samplelogin.ini</code> to <code class="language-plaintext highlighter-rouge">praw.ini</code>. We’ll fill in the rest of the info shortly.</p>
+                </li>
+                <li>
+                  <strong>Generate keys.</strong> Navigate to https://www.reddit.com/prefs/apps on a computer, sign in, and do the following:
+                  <ul>
+                    <li>scroll to the bottom and select “Create another app…”.</li>
+                    <li>Make up a name and description and select <code class="language-plaintext highlighter-rouge">script</code>.</li>
+                    <li>Set the redirect url to <code class="language-plaintext highlighter-rouge">http://127.0.0.1</code></li>
+                    <li>Add your bot account as a developer</li>
+                    <li>Inset the public and secret keys into <code class="language-plaintext highlighter-rouge">praw.ini</code>.</li>
+                    <li>Insert your (the bot’s) username and password into <code class="language-plaintext highlighter-rouge">praw.ini</code>. (you can’t have 2FA on)</li>
+                    <li><strong>DO NOT UPLOAD PRAW.INI TO THE INTERNET, NOW OR EVER!!!</strong> Keep this stored locally. If on github, add it to your <code class="language-plaintext highlighter-rouge">.gitignore</code>.</li>
+                  </ul>
+                </li>
+                <li>
+                  <p>
+                    <strong>Run it!</strong> The main file is <code class="language-plaintext highlighter-rouge">main.py</code>, it’ll create a log for you. Based on your system, you can set it as a scheduled job to run <code class="language-plaintext highlighter-rouge">main.py</code> every x
+                    minutes. For cron on linux systems, you’ll want to use launcher.sh, modified for your directory structure.
+                  </p>
+                </li>
+                <li>
+                  <strong>Create that cronjob.</strong> Stop here if you are not using a raspberry pi. TO create your cronjob, perform the following steps:
+                  <ol>
+                    <li>
+                      In the command line, enter <code class="language-plaintext highlighter-rouge">sudo crontab -e</code>
+                      <ul>
+                        <li>If asked, edit using nano.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Navigate to the bottom of the file, and add this: <code class="language-plaintext highlighter-rouge">*/10 * * * * sh /home/pi/redditBot/launcher.sh &amp;&gt;&gt; /home/pi/logs/cronlog 2&gt;&amp;1</code>. You can change the 10 in that string to however often you want to run the
+                      script, in minutes.
+                    </li>
+                    <li>(optional) Set your pi to reboot every x hours. Sometimes, things go wrong for seemingly no reason. Rebooting help to prevent this. Add <code class="language-plaintext highlighter-rouge">* */6 * * * reboot</code> to your crontab on a new line to reboot every 6 hours.</li>
+                    <li>Press ctrl + x, then y, then enter. This saves your file and exits.</li>
+                  </ol>
+                </li>
+                <li><strong>Done!</strong> You now have a great reddit bot running on your subreddit that will make your moderation jobs exponentially easier.</li>
+              </ol>
+              <p>If you have any questions, you can send me a message on reddit. Thanks for reading!</p>
+              <h2 id="faq">FAQ</h2>
+              <h3 id="for-users">For users</h3>
+              <h4 id="what-does-it-do">What does it do?</h4>
+              <p>This bot will automatically flair posts based on the number of upvotes it receives on its comment. The comment scores do not affect the bot’s karma because all vote comments are stickies.</p>
+              <p>Depending on the configuration of the bot, it may remove posts that reach a certain amount of karma without being approved. On /r/MurderedByWords, it removes unapproved posts with 5k+ karma.</p>
+              <p>It can also notify moderators via a report whenever a post is overwhelmingly voted one way or another. This prevents low quality content from making the front page.</p>
+              <h4 id="how-do-i-know-this-isnt-just-a-cheap-karma-grab">How do I know this isn’t just a cheap karma-grab?</h4>
+              <p>Per the inner-workings of reddit, sticky comments can never generate karma. It’s how reddit is written, and since all comments posted by this bot are stickies, it is not generating any karma at all.</p>
+              <h4 id="why-do-we-trust-a-bot-to-moderate-the-subreddit">Why do we trust a bot to moderate the subreddit?</h4>
+              <p>
+                Great question! This bot is being developed by /u/jackson1442, a moderator on /r/MurderedByWords. Any changes to the source code must be done by him, so we shouldn’t be having any issues with abuse. In case you’re worried about the bot being able to destroy the world, you can check
+                out our source code and see that it’s not capable of that.
+              </p>
+              <p>Bots on subreddits that he doesn’t moderate are run by the moderators of those subreddits, completely independently. It’s just like an extension of their moderation capabilities.</p>
+              <h4 id="why-dont-the-moderators-just-do-this">Why don’t the moderators just do this?</h4>
+              <p>The bot is able to more efficiently and impartially flair posts. Since the community is able to flair posts, we will be able to see which posts are of the best quality or simply belong in one category.</p>
+              <h4 id="why-does-it-automatically-remove-posts">Why does it automatically remove posts?</h4>
+              <p>
+                This is to ensure that low-quality content does not get heavily upvoted and reach the top of the sub. Generally, this happens when /r/all upvotes content about stocks like <a href="https://coindataflow.com/de/aktie/SEDG">solaredge aktie</a> , since many people (myself included) don’t know all of the rules and
+                inner-workings of every sub.
+              </p>
+              <p>This solution is preferred to CSS buttons because CSS is only visible on the computer version of reddit. This allows all users of subreddits to have a say in the content choices.</p>
+              <h5 id="i-have-a-different-question">I have a different question.</h5>
+              <p>Great! I love talking about the bot. Send me a message, or hit me up in Discord. I will not answer questions about moderation decisions in my inbox.</p>
+              <h3 id="for-moderators">For moderators</h3>
+              <h4 id="how-can-i-install-this-on-my-subreddit">How can I install this on my subreddit?</h4>
+              <p>I don’t host the bot for any subreddits other than my own - if you want to run it on your subreddit, please follow the directions above</p>
+              <h4 id="how-does-this-work">How does this work?</h4>
+              <p>
+                This bot will run through all of the posts on a subreddit less than 5 days old, add a comment, save that comment, then hide the post. The next time the bot is run (and every time thereafter), it will check its saved comments and see how many votes they have, flairing accordingly, and
+                then will do the same thing - comment, save, and hide.
+              </p>
+              <p>It won’t repeat actions on posts because it only comments on posts it can see- that’s why they’re hidden, and why you shouldn’t run this on your own account.</p>
+              <p>If the comment reaches a certain threshold on either end, it is removed and the flair will remain.</p>
+              <h4 id="why-dont-i-just-use-automoderator-for-this">Why don’t I just use AutoModerator for this?</h4>
+              <p>You can’t. AutoModerator lacks the capability to do the logic required for this bot. You’ll have to use a separate account.</p>
+            </section>
+            <footer class="page__meta"></footer>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+        <!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+          <ul class="social-icons">
+            <li><strong>Follow:</strong></li>
+            <li>
+              <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+            </li>
+            <li>
+              <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed
+            </li>
+          </ul>
+        </div>
+        <div class="page__footer-copyright">&copy; 2019 Jackson1442. Powered by Jekyll &amp; Minimal Mistakes.</div>
+      </footer>
+    </div>
+    <script src="main.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </body>
+</html>
